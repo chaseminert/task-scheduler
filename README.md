@@ -13,7 +13,6 @@ Task Scheduler is an open-source task management application with a graphical us
 ## Technologies Used
 - **Python**: Core programming language for application logic.
 - **CustomTkinter**: Modern Python GUI library for building the graphical interface.
-- **SQLite**: Lightweight database for storing task data locally.
 
 ## Installation and Usage
 1. **Clone the Repository**: Clone the repository to your local machine:
