@@ -27,6 +27,16 @@ Task Scheduler is an open-source task management application with a graphical us
    python main.py
   **Usage**: Use the GUI to manage tasks, set due dates, mark tasks as complete, and more. Changes are automatically saved and reflected open closing the program.
 
+## Challenges Faced
+### Backend Development
+Addressing backend challenges involved determining the data storage structure and handling user data persistence. This was resolved by creating a `Task` class to encapsulate task objects and a `TaskScheduler` class to manage task collections.
+
+### Frontend GUI Design
+Developing an intuitive GUI presented challenges in representing task objects visually and ensuring real-time updates. Overcoming this involved learning about Tkinter's frame and grid geometry manager, enabling dynamic task display updates upon user actions.
+
+### Task Editing and Maintenance
+Enabling seamless task editing posed a significant challenge. This was addressed by implementing robust error handling and dynamic data updates to reflect changes instantly, enhancing user experience and program stability.
+
 ## Contributing
 Contributions to enhance the functionality, usability, or documentation of Task Scheduler are welcome. To contribute:
 - Fork the repository
