@@ -10,15 +10,18 @@ MIN_HEIGHT = 375
 
 STARTING_HEIGHT = 800
 
+PROGRAM_NAME = "Task Scheduler"
+
 
 def run_gui(task_scheduler: TaskScheduler) -> None:
     root = ctk.CTk()
+    root.title(PROGRAM_NAME)
     root.geometry(f"{MIN_WIDTH}x{STARTING_HEIGHT}")
     root.minsize(MIN_WIDTH, MIN_HEIGHT)
 
     root.grid_columnconfigure(0, weight=1)
 
-    program_label = ctk.CTkLabel(root, text="Task Scheduler", font=gui_utils.TITLE_FONT)
+    program_label = ctk.CTkLabel(root, text=PROGRAM_NAME, font=gui_utils.TITLE_FONT)
     program_label.grid(row=0, column=0, columnspan=100, pady=(20, 0))
 
     all_tasks_frame = ctk.CTkScrollableFrame(root, fg_color="transparent", width=900, height=675)
